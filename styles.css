@@ -154,19 +154,20 @@ background-color: #fff;
 /* Video and Pictures */
 
 .pictures {
-    padding-top: 60px;
+   
 height: 600px;
-position: relative;
+position: flex;
 }
 
 .pictures video {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
 }
 
 .text-area {
     
-    width: auto;
+    height: auto;
+    width: 500px;
 }
 /* Utilities */
 
@@ -228,7 +229,11 @@ position: relative;
 }
 
 .grid-2 {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     
 }
