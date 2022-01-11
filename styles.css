@@ -153,21 +153,34 @@ background-color: #fff;
 
 /* Video and Pictures */
 
-.pictures {
-   
-height: 600px;
-position: flex;
+
+
+
+.secondary video {
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+    
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    
 }
 
-.pictures video {
-    height: 500px;
-    width: 500px;
+.secondary {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .text-area {
     
-    height: auto;
+    height: 400px;
     width: 500px;
+    
+    
 }
 /* Utilities */
 
@@ -177,6 +190,7 @@ position: flex;
     overflow: auto;
     padding: 0 40px;
 }
+
 
 .container img {
     width: 100px;
@@ -189,6 +203,14 @@ position: flex;
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     padding: 20px;
     margin: 10px;
+    color: #333;
+}
+
+.card2{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
     color: #333;
 }
 
